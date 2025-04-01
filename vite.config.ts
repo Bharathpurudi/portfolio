@@ -10,4 +10,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/https://github.com/Bharathpurudi/portfolio/',
+  build: {
+    outDir: 'dist'
+  },
 });
